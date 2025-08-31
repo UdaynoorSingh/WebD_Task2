@@ -1,0 +1,86 @@
+.not-found {
+  padding: 4rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found-content {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.not-found-icon {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.not-found h1 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.not-found p {
+  color: var(--gray-color);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.not-found-actions .btn {
+  min-width: 150px;
+}
+
+.not-found-help {
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+
+.not-found-help p {
+  margin: 0;
+  color: var(--gray-color);
+}
+
+.not-found-help a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.not-found-help a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .not-found {
+    padding: 2rem 0;
+  }
+  
+  .not-found-icon {
+    font-size: 4rem;
+  }
+  
+  .not-found h1 {
+    font-size: 2rem;
+  }
+  
+  .not-found-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .not-found-actions .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}   
