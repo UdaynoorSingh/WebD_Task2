@@ -25,7 +25,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000","https://web-d-task2.vercel.app"],
     credentials: true,
   })
 );
